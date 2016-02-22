@@ -9,13 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.oscarjuarez.quizapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/quiz"
-        android:id="@+id/welcome"
-        android:background="#21d38c" />
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,5 +16,16 @@
         android:id="@+id/StartButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#0beb4a" />
+        android:background="#0b55eb"
+        android:textColor="#f8f6f6"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bulb"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/bulb"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
